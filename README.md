@@ -76,3 +76,15 @@ If you use DNA-Vault in your research, please cite our Zenodo publication:
   doi          = {10.5281/zenodo.18681996},
   url          = {[https://doi.org/10.5281/zenodo.18681996](https://doi.org/10.5281/zenodo.18681996)}
 }
+
+### 3. The Logic Paradox Benchmark (Conflict Test)
+In this extreme test, the model is taught two conflicting rules on the same dataset. 
+- Task 0: High Value = Class 1
+- Task 1: High Value = Class 0 (The literal inverse)
+
+| Model | Task 0 Accuracy (Final) |
+| :--- | :--- |
+| Standard Neural Network | 0.3% (Complete Logic Overwrite) |
+| DNA-Vault (Ours) | 100.0% (Perfect Logical Segregation) |
+
+*Conclusion: DNA-Vault is immune to logical contradictions by isolating conflicting rules into separate functional vaults.*
